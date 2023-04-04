@@ -1,17 +1,13 @@
 import React from "react"; 
-import './App.css';
+import Navbar from "./mnuhoriz/mnuhoriz";
+
 function App() {
   return (
-    <div className="container" >
-  <h1>Registro</h1>
-  <h2>Nombre</h2>
-  <input type={Text} class='espacio1'></input>
-  <h2>Apellido</h2>
-  <input type={Text} class='espacio1'></input>
-  <h2>Telefono</h2>
-  <input type={Text} class='espacio1'></input>
- </div>)
- 
+    <React.Fragment>
+      <Navbar/>
+    </React.Fragment>
+  );
+
 }
 
 export default App;
